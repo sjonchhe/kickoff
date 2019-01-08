@@ -1,0 +1,77 @@
+*
+{
+  margin:0px;
+
+  padding:0px;
+  //color:black;
+
+}
+body{margin-top:60px;  background:#F0F0F2;}
+a.hiddenanchor{
+	display: none;
+}
+
+#wrapper
+{
+  background:url('Gallery/9.jpg');
+  background-size:cover;
+
+min-height: 1060px;
+  width:100%;
+  color:black;
+}
+#wrapper p{
+	margin-bottom:15px;
+}
+
+.loginform table tr td
+{
+  text-align: center;
+}
+.social-line
+{
+  padding:30px;
+  padding:10px 30px 0px 65px;
+  background:linear-gradient(#3E9AE3,#68CAEA);
+  box-shadow:0px 2px 5px gray;
+  border-radius:5px;
+  position:relative;
+  top:-70px;
+
+  }
+
+
+/*styling the links to change from one form to another */
+
+
+
+/** Styling both forms **/
+#register,
+#login
+{
+  position:absolute;
+  top:85px;
+  right:80px;
+  background:rgba(255,255,255,0.65);
+  //background:rgba(0,0,0,0.6);
+  //width: 88%;
+	padding: 18px 6% 60px 6%;
+  border-radius:5px;
+  //background:red;
+  margin-bottom:50px;
+  padding-top:40px;
+  box-shadow:0pt 2px 5px rgba(105, 108, 109,  0.7);
+  //box-shadow:0pt 2px 5px black;
+}
+#register{
+display:none;
+position:absolute;
+top:45px;
+right:80px;
+
+}
+#login{
+//	z-index: 22;
+}
+
+/**INDEX PAGE/HOME PAGE**/
